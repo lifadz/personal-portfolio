@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <!-- SEO -->
+  <meta name="description" content="Fadzli Muhammad — IT Support & Networking specialist based in Bengkulu, Indonesia. Experienced in system troubleshooting, network configuration, and Cisco Packet Tracer. Building toward NOC and Cyber Security." />
+  <meta name="keywords" content="IT Support, Networking, NOC, Cyber Security, Bengkulu, Fadzli Muhammad, Cisco, Linux, VLAN, Troubleshooting" />
+  <meta name="author" content="Fadzli Muhammad" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph (LinkedIn, WhatsApp, Facebook) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://portfolio-fadzli.pages.dev/" />
+  <meta property="og:title" content="Fadzli Muhammad — IT Support & Networking" />
+  <meta property="og:description" content="IT Support & Networking specialist based in Bengkulu. Experienced in system troubleshooting, network configuration, and building toward NOC & Cyber Security." />
+  <meta property="og:image" content="https://portfolio-fadzli.pages.dev/assets/profile.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Fadzli Muhammad — IT Support & Networking" />
+  <meta name="twitter:description" content="IT Support & Networking specialist based in Bengkulu. Experienced in system troubleshooting, network configuration, and building toward NOC & Cyber Security." />
+  <meta name="twitter:image" content="https://portfolio-fadzli.pages.dev/assets/profile.png" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://portfolio-fadzli.pages.dev/" />
+  <title>Fadzli Muhammad — IT Support & Networking | Bengkulu</title>
+  <style>
+    @keyframes lineGrow   {from{transform:scaleX(0)}to{transform:scaleX(1)}}
+    @keyframes fadeInUp   {from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes charReveal {from{opacity:0;transform:translateY(65%)}to{opacity:1;transform:translateY(0)}}
+    @keyframes introDismiss{0%{opacity:1;transform:translateY(0) scale(1)}100%{opacity:0;transform:translateY(-24px) scale(.995)}}
+    #intro-overlay{position:fixed;inset:0;z-index:9999;background:#090e14;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;}
+    #intro-overlay::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(59,130,246,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(59,130,246,.035) 1px,transparent 1px);background-size:52px 52px;mask-image:radial-gradient(ellipse 80% 70% at 50% 50%,black 30%,transparent 100%);-webkit-mask-image:radial-gradient(ellipse 80% 70% at 50% 50%,black 30%,transparent 100%);}
+    #intro-overlay::after{content:'';position:absolute;width:500px;height:200px;background:radial-gradient(ellipse,rgba(59,130,246,0.1) 0%,transparent 70%);pointer-events:none;}
+    .intro-hline{position:absolute;left:7%;right:7%;height:1px;background:linear-gradient(90deg,transparent,rgba(59,130,246,.18),transparent);transform:scaleX(0);transform-origin:center;}
+    .intro-hline.top{top:11%;animation:lineGrow .7s .10s cubic-bezier(.76,0,.24,1) forwards}
+    .intro-hline.bottom{bottom:11%;animation:lineGrow .7s .18s cubic-bezier(.76,0,.24,1) forwards}
+    .intro-corner{position:absolute;width:14px;height:14px;opacity:0;animation:fadeInUp .3s .42s ease forwards}
+    .intro-corner.tl{top:11%;left:7%;border-top:1px solid rgba(59,130,246,.32);border-left:1px solid rgba(59,130,246,.32)}
+    .intro-corner.tr{top:11%;right:7%;border-top:1px solid rgba(59,130,246,.32);border-right:1px solid rgba(59,130,246,.32)}
+    .intro-corner.bl{bottom:11%;left:7%;border-bottom:1px solid rgba(59,130,246,.32);border-left:1px solid rgba(59,130,246,.32)}
+    .intro-corner.br{bottom:11%;right:7%;border-bottom:1px solid rgba(59,130,246,.32);border-right:1px solid rgba(59,130,246,.32)}
+    .intro-eyebrow{font-family:monospace;font-size:clamp(.54rem,1.2vw,.65rem);color:rgba(59,130,246,0.8);letter-spacing:.28em;text-transform:uppercase;margin-bottom:18px;opacity:0;animation:fadeInUp .4s .14s ease forwards;}
+    .intro-name-wrap{position:relative;line-height:.88;text-align:center}
+    .intro-name-text{font-family:sans-serif;font-size:clamp(3rem,10.5vw,7.6rem);font-weight:600;letter-spacing:-.035em;color:#e8eef5;display:block;position:relative;}
+    .intro-char{display:inline-block;overflow:hidden;vertical-align:bottom}
+    .intro-char-inner{display:inline-block;animation:charReveal .5s cubic-bezier(.76,0,.24,1) both}
+    .intro-sub{font-family:monospace;font-size:clamp(.52rem,1.1vw,.62rem);color:#3e4a5a;letter-spacing:.18em;margin-top:24px;opacity:0;animation:fadeInUp .4s ease forwards;}
+    .intro-exit{animation:introDismiss .4s cubic-bezier(.76,0,.24,1) forwards !important}
+  </style>
+</head>
+<body>
+  <div id="intro-overlay">
+    <div class="intro-hline top"></div>
+    <div class="intro-hline bottom"></div>
+    <div class="intro-corner tl"></div>
+    <div class="intro-corner tr"></div>
+    <div class="intro-corner bl"></div>
+    <div class="intro-corner br"></div>
+    <div style="text-align:center;position:relative;padding:0 6%;z-index:1">
+      <div class="intro-eyebrow">portfolio &mdash; it support &amp; networking</div>
+      <div class="intro-name-wrap" id="intro-line1"></div>
+      <div class="intro-name-wrap" id="intro-line2" style="margin-top:6px"></div>
+      <div class="intro-sub" id="intro-sub">
+        Bengkulu, Indonesia &nbsp;&bull;&nbsp; fadmuh12@gmail.com
+      </div>
+    </div>
+  </div>
+
+  <div id="root"></div>
+
+  <script>
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    window.scrollTo(0, 0);
+    document.body.style.overflow = 'hidden';
+
+    (function () {
+      var BASE=100, STEP=38, OFFSET=180, SUB=500, TOTAL=2000, EXIT=420;
+      var timerDone=false, fontsDone=false, reactDone=false, dismissed=false;
+
+      function tryDismiss() {
+        if (dismissed || !timerDone || !fontsDone || !reactDone) return;
+        dismissed = true;
+        var el = document.getElementById('intro-overlay');
+        if (!el) return;
+        el.classList.add('intro-exit');
+        setTimeout(function () {
+          el.remove();
+          document.body.style.overflow = '';
+          var wrap = document.getElementById('hero-wrap');
+          if (wrap) wrap.classList.add('hero-ready');
+        }, EXIT);
+      }
+
+      setTimeout(function () { timerDone = true; tryDismiss(); }, TOTAL);
+
+      var fontTimer = setTimeout(function () { fontsDone = true; tryDismiss(); }, 1500);
+      (document.fonts ? document.fonts.ready : Promise.resolve())
+        .then(function () { clearTimeout(fontTimer); fontsDone = true; tryDismiss(); })
+        .catch(function () { clearTimeout(fontTimer); fontsDone = true; tryDismiss(); });
+
+      window.__introReactReady = function () { reactDone = true; tryDismiss(); };
+
+      function buildLine(el, word, delay) {
+        var span = document.createElement('span');
+        span.className = 'intro-name-text';
+        word.split('').forEach(function (ch, i) {
+          var outer = document.createElement('span');
+          outer.className = 'intro-char';
+          var inner = document.createElement('span');
+          inner.className = 'intro-char-inner';
+          inner.textContent = ch === ' ' ? '\u00a0' : ch;
+          inner.style.animationDelay = (delay + i * STEP) + 'ms';
+          outer.appendChild(inner);
+          span.appendChild(outer);
+        });
+        el.appendChild(span);
+      }
+
+      buildLine(document.getElementById('intro-line1'), 'Fadzli',   BASE);
+      buildLine(document.getElementById('intro-line2'), 'Muhammad', BASE + OFFSET);
+      document.getElementById('intro-sub').style.animationDelay = (BASE + OFFSET + SUB) + 'ms';
+    })();
+  </script>
+
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
