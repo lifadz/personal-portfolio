@@ -1,7 +1,7 @@
 const facts = [
-  { main: 'B.Eng Informatics Engineering — 3.74 / 4.00', sub: 'University of Bengkulu · Jun 2021 – Feb 2026' },
+  { main: 'B.Eng Informatics Engineering, 3.74 / 4.00', sub: 'University of Bengkulu · Jun 2021 – Feb 2026' },
   { main: 'Assistant Lecturer', sub: 'Computer Networks & Operating Systems · Aug 2023 – May 2024' },
-  { main: 'Bangkit Academy 2024 — Top 1,000 cohort', sub: 'Machine Learning path · Google × GoTo × Tokopedia × Traveloka' },
+  { main: 'Bangkit Academy 2024, Top 1,000 cohort', sub: 'Machine Learning path · Google × GoTo × Tokopedia × Traveloka' },
   { main: 'Freelance Web Developer', sub: 'Client project · 2025' },
 ]
 

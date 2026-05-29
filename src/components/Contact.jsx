@@ -22,8 +22,8 @@ export default function Contact() {
       <div className="contact-grid">
         <div>
           <p className="contact-intro">
-            Looking for IT Support or Networking roles — Bengkulu-based or remote.
-            Best way to reach me is email or LinkedIn — I reply within the day.
+            Looking for IT Support or Networking roles, Bengkulu-based or remote.
+            Best way to reach me is email or LinkedIn. I reply within the day.
           </p>
           <div className="c-links">
             {links.map(l => l.href ? (

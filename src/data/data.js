@@ -50,7 +50,7 @@ export const PROJECTS = [
     bullets:[
       "Configured Router-on-a-Stick with per-VLAN DHCP for Finance, IT, and HR segments.",
       "Implemented extended ACLs and debugged stateless ICMP echo/echo-reply edge cases.",
-      "Documented the full design end-to-end — from topology to troubleshooting decisions.",
+      "Documented the full design from topology to troubleshooting decisions.",
     ],
     tech:["Cisco Packet Tracer","VLAN","Inter-VLAN Routing","DHCP","ACL"],
     tags:["networking","security"],
@@ -62,7 +62,7 @@ export const PROJECTS = [
     title:"IT Support Lab",
     desc:"Structured IT Support knowledge base covering real helpdesk scenarios, network cases, and practical guides.",
     bullets:[
-      "5 network troubleshooting cases (No Internet, DHCP, DNS, inter-VLAN, drops) — each with root cause and fix.",
+      "5 network troubleshooting cases (No Internet, DHCP, DNS, inter-VLAN, drops), each with root cause and fix.",
       "Guides covering network setup, hardware maintenance, and security best practices.",
       "Written from scratch in a real helpdesk documentation style, not copied from textbooks.",
     ],
@@ -90,7 +90,7 @@ export const PROJECTS = [
     title:"Arabic Letter Detection (ML)",
     desc:"CNN model for handwritten Arabic letter recognition, built as a Bangkit Academy capstone project.",
     bullets:[
-      "Owned the full model lifecycle — data prep, architecture, training, and evaluation.",
+      "Owned the full model lifecycle covering data prep, architecture, training, and evaluation.",
       "Designed as a component for an Islamic religious learning application.",
       "Completed within the top 1,000 cohort of a nationally competitive program.",
     ],
@@ -106,7 +106,7 @@ export const PROJECTS = [
     bullets:[
       "Translated verbal requirements into a functional, cross-device compatible interface.",
       "Managed full client communication including two revision rounds.",
-      "Shipped on schedule — first paid project with a non-technical client.",
+      "Shipped on schedule. First paid project with a non-technical client.",
     ],
     tech:["HTML","CSS","Responsive Design"],
     tags:["web"],
@@ -121,10 +121,10 @@ export const FILTERS  = ["All","networking","security","sysadmin","ml","web"];
 export const EXP = [
   {
     date:"Aug 2023 – May 2024",
-    title:"Assistant Lecturer — Computer Networks & Operating Systems",
+    title:"Assistant Lecturer, Computer Networks & Operating Systems",
     org:"University of Bengkulu · Bengkulu, Indonesia",
     bullets:[
-      "Ran practical sessions covering computer networking and OS fundamentals — Cisco Packet Tracer labs, Linux basics, and system configuration.",
+      "Ran practical sessions covering computer networking and OS fundamentals including Cisco Packet Tracer labs, Linux basics, and system configuration.",
       "Guided 20+ students per session through hands-on labs; first point of contact for technical issues during practicum.",
       "Troubleshot system and network problems in real time across multiple users and setups.",
       "Maintained lab flow and student engagement across a full academic year.",
@@ -132,11 +132,11 @@ export const EXP = [
   },
   {
     date:"Feb 2024 – Jul 2024",
-    title:"Machine Learning Cohort — Bangkit Academy 2024 Batch 1",
+    title:"Machine Learning Cohort, Bangkit Academy 2024 Batch 1",
     org:"Google, GoTo, Tokopedia, Traveloka · Jakarta, Indonesia",
     bullets:[
       "Completed structured training in machine learning, professional communication, and problem-solving.",
-      "Built an Arabic letter detection model as part of an Islamic learning application — handled data preparation, training, and evaluation.",
+      "Built an Arabic letter detection model as part of an Islamic learning application, handling data preparation, training, and evaluation.",
       "Ranked among the top 1,000 performing students in English proficiency assessments.",
     ],
   },
@@ -145,7 +145,7 @@ export const EXP = [
     title:"Web Developer (Freelance)",
     org:"Remote",
     bullets:[
-      "Delivered a responsive landing page for a client based on verbal requirements — no design spec provided.",
+      "Delivered a responsive landing page for a client based on verbal requirements, with no design spec provided.",
       "Managed client communication, handled two rounds of revision, and shipped on schedule.",
       "Ensured cross-device compatibility and clean, maintainable HTML/CSS output.",
     ],
